@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXON-디자인 수정</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- *************사이드 로그인 박스************* -->
+    <div id="sideLogin">
+        <div class="loginToggleS">
+            <p>Login</p><img src="img/login_open.png">
+        </div>
+        <div class="mainLoginS"><a href="#"><span>NEXON ID</span><br>넥슨 로그인</a></div>
+        <div class="pcroomLoginS"><a href="#">일회용 로그인</a></div>
+        <div class="qrLoginS"><a href="#">QR 로그인</a></div>
+
+        <hr style="width: 80%; border:1px solid rgba(255,255,255,0.5);">
+
+        <div class="tpaS">
+            <a href="#" class="googleLogin"><img src="./img/sns_icon_google.png" alt="icon google"></a>
+            <a href="#" class="facebookLogin"><img src="./img/sns_icon_facebook.png" alt="icon facebook"></a>
+            <a href="#" class="naverLogin"><img src="./img/sns_icon_naver.png" alt="icon naver"></a>
+            <a href="#" class="appleLogin"><img src="./img/sns_icon_apple.png" alt="icon apple"></a>
+        </div>
+        <div class="etcS">
+            <a href="#">아이디/비밀번호 찾기</a>
+            <a href="#">회원가입</a>
+            <a href="#">보안센터</a>
+            <a href="#">고객센터</a>
+        </div>
+    </div>
+    <!-- *************본문************* -->
+    <header>
+        <!-- 헤더 -->
+        <div class="header"><img src="./img/logo_nexon.png" alt="logo nexon"><a href="#">Login</a></div>
+        <!-- 슬라이드 이미지들 -->
+        <div class="slide">
+            <ul class="slideArea">
+                <li class="slideImg slideImg1"><a href="#"></a></li>
+                <li class="slideImg slideImg2"><a href="#"></a></li>
+                <li class="slideImg slideImg3"><a href="#"></a></li>
+                <li class="slideImg slideImg4"><a href="#"></a></li>
+                <li class="slideImg slideImg5"><a href="#"></a></li>
+                <li class="slideImg slideImg6"><a href="#"></a></li>
+            </ul>
+            <!-- 슬라이드 세로메뉴 -->
+            <ul class="slideList">
+                <li class="slidetitle1 sldTitle" data="0">
+                    <p><span>엘소드</span><br>레이븐 4라인 업데이트</p>
+                </li>
+                <li class="slidetitle2 sldTitle" data="1">
+                    <p><span>메이플스토리</span><br>Destiny:별빛 심포니</p>
+                </li>
+                <li class="slidetitle3 sldTitle" data="2"> 
+                    <p><span>사이퍼즈</span><br>관조의 헤나투 투입!</p>
+                </li>
+                <li class="slidetitle4 sldTitle" data="3">
+                    <p><span>서든어택</span><br>2022 시즌1 Zero Hour</p>
+                </li>
+                <li class="slidetitle5 sldTitle" data="4">
+                    <p><span>크레이지아케이드</span><br>SS 슈퍼 수 등장</p>
+                </li>
+                <li class="slidetitle6 sldTitle" data="5">
+                    <p><span>마비노기:영웅전</span><br>시즌4 epi5: 태양의 비원</p>
+                </li>
+            </ul>
+            <!-- 슬라이드 세로메뉴 네비게이션 -->
+            <div class="sldBtn">
+                <a class="prev"></a>
+                <a class="next"></a>
+            </div>
+            <div class="dots-box"></div>
+        </div>
+    </header>
+
+    <!-- ***********섹션1 추천게임+로그인*********** -->
+    <section class="section1">
+        <!-- 추천게임섹션 -->
+        <div class="recommend">
+            <p>추천게임</p>
+            <div class="recommendGame rg1">
+                <img src="img/recommend1.png" alt="추천게임1">
+                <span class="my">MY</span>
+                <p>FIFA</p>
+                <p>최근 플레이한 게임</p>
+            </div>
+            <div class="recommendGame rg2">
+                <img src="img/recommend2.png" alt="추천게임2">
+                <span class="my">MY</span>
+                <p>바람의 나라</p>
+                <p>최근 플레이한 게임</p>
+            </div>
+            <div class="recommendGame rg3">
+                <img src="img/recommend3.png" alt="추천게임3">
+                <span class="my">MY</span>
+                <p>사이퍼즈</p>
+                <p>최근 플레이한 게임</p>
+            </div>
+            <div class="recommendGame rg4">
+                <img src="img/recommend4.png" alt="추천게임4">
+                <span class="my">MY</span>
+                <p>던전 앤 파이터</p>
+                <p>최근 플레이한 게임</p>
+            </div>
+        </div>
+        <!-- 로그인섹션 -->
+        <div class="login">
+            <p>로그인</p>
+            <div class="loginBox">
+                <a href="#" class="nexonID"><span>NEXON</span> ID 로그인</a>
+                <div class="pcqr">
+                    <a href="#" class="pcroomLogin">일회용 로그인</a>
+                    <a href="#" class="qrLogin">QR 로그인</a>
+                </div>
+                <hr style="width: 80%; border:1px solid rgba(0, 0, 0,0.2);">
+                <div class="tpa">
+                    <p>다른 간편계정 로그인</p>
+                    <a href="#" class="googleLogin"><img src="./img/sns_icon_google.png" alt="icon google"></a>
+                    <a href="#" class="facebookLogin"><img src="./img/sns_icon_facebook.png" alt="icon facebook"></a>
+                    <a href="#" class="naverLogin"><img src="./img/sns_icon_naver.png" alt="icon naver"></a>
+                    <a href="#" class="appleLogin"><img src="./img/sns_icon_apple.png" alt="icon apple"></a>
+                </div>
+                <div class="etc">
+                    <a href="#">아이디/비밀번호찾기</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">보안센터</a>
+                    <a href="#">고객센터</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ************섹션2 신규게임*************** -->
+    <div class="bg"></div>
+    <section class="section2">
+        <p>신규 게임</p>
+        <div class="newGameSection">
+            <!-- 자세히 보기 누르면 나오는 팝업 -->
+            <div class="newGameMore">
+                <div class="ng1More">
+                    <img class="ng1_closeBtn" src="img/close_btn.png" alt="close btn">
+                    <img src="img/newgameA-img1.png" alt="">
+                    <img src="img/newgameA-img2.png" alt="">
+                    <img src="img/ngA-more-img1.png" alt="">
+                    <div class="ng1Homepage">Maple Story 보러가기</div>
+                </div>
+
+                <div class="ng2More">
+                    <img class="ng2_closeBtn" src="img/close_btn.png" alt="close btn">
+                    <div class="">
+                        <img src="img/newgameB-img1.png" alt="">
+                        <img src="img/newgameB-img2.png" alt="">
+                        <img src="img/newgameB-img3.png" alt="">
+                    </div>
+                    <img src="img/newgameB-img4.png" alt="">
+                    <div class="ng2Homepage">FF14 보러가기</div>
+                </div>
+            </div>
+
+            <!-- 신규게임 본문 -->
+            <div class="newGame">
+                <div class="N-G newGame1">
+                    <div class="newGameImg">
+                        <img src="img/rpg_logo1.png" class="ng1Logo" alt="메이플스토리 로고">
+                        <img src="img/newgameA-img2.png" alt="캐릭터2" class="ng1Cha2">
+                        <img src="img/newgameA-img1.png" alt="캐릭터1" class="ng1Cha1">
+                    </div>
+                    <div class="goTo">
+                        <div class="newGameTag">
+                            <div class="tagOB">#오픈베타_이벤트</div>
+                            <div class="tagMMORPG">#MMORPG</div>
+                            <div class="tagHorizon">#횡스크롤</div>
+                        </div>
+                        <div class="goToHomepage">
+                            <p>자세히 보기</p>
+                            <div class="madeArrow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="N-G newGame2">
+                    <div class="newGameImg">
+                        <img src="img/rpg_logo10.png" class="ng1Logo" alt="메이플스토리 로고">
+                        <img src="img/newgameB-img4.png" alt="캐릭터2" class="ng2Cha1">
+                    </div>
+                    <div class="goTo">
+                        <div class="newGameTag">
+                            <div class="tagOB">#사전예약_이벤트</div>
+                            <div class="tagMMORPG">#FPS</div>
+                            <div class="tagHorizon">#흥미진진_스토리</div>
+                        </div>
+                        <div class="goToHomepage">
+                            <p>자세히 보기</p>
+                            <div class="madeArrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ************섹션3 전체게임*************** -->
+<section class="section3">
+    <p>전체 게임</p> <p>한 눈에 보기<img src="img/hamberger.png" alt="한 눈에 보기"></p>
+    <div class="allGames-menu">
+        <ul class="allGames-menu-rpg"> <p>RPG</p> 
+            <li>메이플스토리</li>
+            <li>마비노기</li>
+            <li>마비노기:영웅전</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+            <li>Final Fantasy XIV</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+        </ul>
+        <ul class="allGames-menu-fps"> <p>FPS</p> 
+            <li>서든어택</li>
+            <li>마비노기</li>
+            <li>건즈</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+            <li>Final Fantasy XIV</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+            <li>Final Fantasy XIV</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+            <li>건즈</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+        </ul>
+        <ul class="allGames-menu-stage"> <p>얼리스테이지</p> 
+            <li>메이플스토리</li>
+            <li>마비노기</li>
+            <li>마비노기:영웅전</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+            <li>Final Fantasy XIV</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+        </ul>
+        <ul class="allGames-menu-racing"> <p>레이싱</p> 
+            <li>Final Fantasy XIV</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠</li>
+            <li>드래곤 네스트</li>
+            <li>커츠펠 2</li>
+            <li>커츠펠 3</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+            <li>Final Fantasy XIV</li>
+            <li>라테일</li>
+            <li>바람의 나라</li>
+            <li>Final Fantasy XIV</li>
+        </ul>
+        <ul class="allGames-menu-aos"> <p>AOS</p> 
+            <li>사이퍼즈</li>
+            <li>사이퍼즈 2</li>
+            <li>League od Legends</li>
+        </ul>
+    </div>
+    <div class="allGames">
+        <!-- RPG -->
+        <div class="game rpg-Game">
+            <div class="gameTitle">RPG</div>
+            <div class="gameLogo gameRpgLogo">
+                <div class="Logo rpgLogo"><img src="img/rpg_logo1.png" alt="rpg logo1"></div>
+                <div class="Logo rpgLogo"><img src="img/rpg_logo2.png" alt="rpg logo2"></div>
+                <div class="Logo rpgLogo"><img src="img/rpg_logo3.png" alt="rpg logo3"></div>
+                <div class="Logo rpgLogo"><img src="img/rpg_logo4.png" alt="rpg logo4"></div>
+                <div class="Logo rpgLogo"><img src="img/rpg_logo5.png" alt="rpg logo5"></div>
+                <div class="Logo rpgLogo"><img src="img/rpg_logo6.png" alt="rpg logo6"></div>
+            </div>
+            <div class="gameList rpgGameSlide">
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game1.png" alt="rpg game1"></div>
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game2.png" alt="rpg game2"></div>
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game3.png" alt="rpg game3"></div>
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game4.png" alt="rpg game4"></div>
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game5.png" alt="rpg game5"></div>
+                <div class="gList rpgGameList"><div></div><img src="img/rpg_game6.png" alt="rpg game6"></div>
+            </div>
+            <div class="gameText rpgGameText">
+                <div class="gText rpgText">그 유명한 ‘메이플 스토리’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText rpgText">그 유명한 ‘던전앤파이터’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리고,<br>
+                    던전앤파이터의 스릴 넘치는 모험이야기를 놓치지 마세요!</div>
+                <div class="gText rpgText">그 유명한 '마비노기’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText rpgText">그 유명한 ‘LostArk’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText rpgText">그 유명한 ‘파이널판타지’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText rpgText">그 유명한 ‘엘소드’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+            </div>
+            <div class="allGame-btn rpgGame-btn">
+                <div class="allGame-prev rpgGame-prev"><img src="img/round_arrow.png" alt="rpg game arrow1"></div>
+                <div class="allGame-next rpgGame-next"><img src="img/round_arrow.png" alt="rpg game arrow2"></div>
+            </div>
+        </div>
+        <!-- FPS -->
+        <div class="game fps-Game">
+            <div class="gameTitle">FPS</div>
+            <div class="gameLogo gameFpsLogo">
+                <div class="Logo fpsLogo"><img src="img/rpg_logo7.png" alt="rpg logo1"></div>
+                <div class="Logo fpsLogo"><img src="img/rpg_logo8.png" alt="rpg logo2"></div>
+                <div class="Logo fpsLogo"><img src="img/rpg_logo9.png" alt="rpg logo3"></div>
+                <div class="Logo fpsLogo"><img src="img/rpg_logo10.png" alt="rpg logo4"></div>
+                <div class="Logo fpsLogo"><img src="img/rpg_logo11.png" alt="rpg logo5"></div>
+                <div class="Logo fpsLogo"><img src="img/rpg_logo12.png" alt="rpg logo6"></div>
+            </div>
+            <div class="gameList fpsGameSlide">
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game7.png" alt="rpg game1"></div>
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game8.png" alt="rpg game2"></div>
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game9.png" alt="rpg game3"></div>
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game10.png" alt="rpg game4"></div>
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game11.png" alt="rpg game5"></div>
+                <div class="gList fpsGameList"><div></div><img src="img/rpg_game12.png" alt="rpg game6"></div>
+            </div>
+            <div class="gameText fpsGameText">
+                <div class="gText fpsText">그 유명한 ‘메이플 스토리’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText fpsText">그 유명한 ‘던전앤파이터’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리고,<br>
+                    던전앤파이터의 스릴 넘치는 모험이야기를 놓치지 마세요!</div>
+                <div class="gText fpsText">그 유명한 '마비노기’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText fpsText">그 유명한 ‘LostArk’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText fpsText">그 유명한 ‘파이널판타지’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText fpsText">그 유명한 ‘엘소드’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+            </div>
+            <div class="allGame-btn fpsGame-btn">
+                <div class="allGame-prev fpsGame-prev"><img src="img/round_arrow.png" alt="rpg game arrow1"></div>
+                <div class="allGame-next fpsGame-next"><img src="img/round_arrow.png" alt="rpg game arrow2"></div>
+            </div>
+        </div>
+        <!-- 얼리스테이지 -->
+        <div class="game stage-Game">
+            <div class="gameTitle">얼리 스테이지</div>
+            <div class="gameLogo gameStageLogo">
+                <div class="Logo stageLogo"><img src="img/rpg_logo13.png" alt="rpg logo1"></div>
+                <div class="Logo stageLogo"><img src="img/rpg_logo14.png" alt="rpg logo2"></div>
+                <div class="Logo stageLogo"><img src="img/rpg_logo15.png" alt="rpg logo3"></div>
+                <div class="Logo stageLogo"><img src="img/rpg_logo16.png" alt="rpg logo4"></div>
+                <div class="Logo stageLogo"><img src="img/rpg_logo17.png" alt="rpg logo5"></div>
+                <div class="Logo stageLogo"><img src="img/rpg_logo18.png" alt="rpg logo6"></div>
+            </div>
+            <div class="gameList stageGameSlide">
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game13.png" alt="rpg game1"></div>
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game14.png" alt="rpg game2"></div>
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game15.png" alt="rpg game3"></div>
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game16.png" alt="rpg game4"></div>
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game17.png" alt="rpg game5"></div>
+                <div class="gList stageGameList"><div></div><img src="img/rpg_game18.png" alt="rpg game6"></div>
+            </div>
+            <div class="gameText stageGameText">
+                <div class="gText stageText">그 유명한 ‘메이플 스토리’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText stageText">그 유명한 ‘던전앤파이터’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리고,<br>
+                    던전앤파이터의 스릴 넘치는 모험이야기를 놓치지 마세요!</div>
+                <div class="gText stageText">그 유명한 '마비노기’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText stageText">그 유명한 ‘LostArk’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText stageText">그 유명한 ‘파이널판타지’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+                <div class="gText stageText">그 유명한 ‘엘소드’의 두번째 이야기!<br>
+                    새로워진 그래픽과 흥미진진한 이야기, 아기자기한 액션과 즐거움을 누리세요!</div>
+            </div>
+            <div class="allGame-btn stageGame-btn">
+                <div class="allGame-prev stageGame-prev"><img src="img/round_arrow.png" alt="rpg game arrow1"></div>
+                <div class="allGame-next stageGame-next"><img src="img/round_arrow.png" alt="rpg game arrow2"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ************섹션4 모바일게임*************** -->
+<section class="section4">
+    <p>모바일 게임</p>
+    <div class="mobileGame">
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon1.png" alt="모바일 게임 아이콘1">
+            <div class="mobileContent">
+                <p class="mGameName">던전앤파이터:모바일</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">RACING RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon2.png" alt="모바일 게임 아이콘2">
+            <div class="mobileContent">
+                <p class="mGameName">케러셀</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">AOS RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon3.png" alt="모바일 게임 아이콘3">
+            <div class="mobileContent">
+                <p class="mGameName">드래곤 네스트</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">ACTION</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon4.png" alt="모바일 게임 아이콘4">
+            <div class="mobileContent">
+                <p class="mGameName">메이플스토리:모바일</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">MMORPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon5.png" alt="모바일 게임 아이콘5">
+            <div class="mobileContent">
+                <p class="mGameName">어둠의 나라</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">AOS</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon6.png" alt="모바일 게임 아이콘6">
+            <div class="mobileContent">
+                <p class="mGameName">카트라이더</p>
+                <p class="mGameEvent">OPENBETA</p>
+                <p class="mGameCategory">ACTION RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon7.png" alt="모바일 게임 아이콘7">
+            <div class="mobileContent">
+                <p class="mGameName">FIFA 4</p>
+                <p class="mGameEvent">OPENBETA</p>
+                <p class="mGameCategory">MMORPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon8.png" alt="모바일 게임 아이콘8">
+            <div class="mobileContent">
+                <p class="mGameName">V4</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">RACING</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon9.png" alt="모바일 게임 아이콘9">
+            <div class="mobileContent">
+                <p class="mGameName">카운터사이드</p>
+                <p class="mGameEvent">OPENBETA</p>
+                <p class="mGameCategory">ACTION RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon10.png" alt="모바일 게임 아이콘10">
+            <div class="mobileContent">
+                <p class="mGameName">고질라 디펜스 포스</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">ACTION AOS</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon11.png" alt="모바일 게임 아이콘11">
+            <div class="mobileContent">
+                <p class="mGameName">천애명월도</p>
+                <p class="mGameEvent">OPENBETA</p>
+                <p class="mGameCategory">RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon12.png" alt="모바일 게임 아이콘12">
+            <div class="mobileContent">
+                <p class="mGameName">크레이지 아케이드</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">RACING RPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+        <div class="mobileGame-box">
+            <img src="img/mobile-icon13.png" alt="모바일 게임 아이콘13">
+            <div class="mobileContent">
+                <p class="mGameName">엑스</p>
+                <p class="mGameEvent">EVENT</p>
+                <p class="mGameCategory">MMORPG</p>
+                <p class="mGameDown"><img src="img/down_icon1.png" alt="애플 다운로드"><img src="img/down_icon2.png" alt="구글플레이 다운로드"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ************푸터*************** -->
+<footer>
+    <div class="footer">
+        <div class="footer-top">
+            <a href="#">[공지] 12/30(목) 넥슨 정기점검 안내</a>
+            <div class="sns">
+                <div class="snsImg sns_youtube"><img src="img/set_footer.png" alt=""></div>
+                <div class="snsImg sns_twitter"><img src="img/set_footer.png" alt=""></div>
+                <div class="snsImg sns_facebook"><img src="img/set_footer.png" alt=""></div>
+            </div>
+        </div>
+        <hr style="width: 100%; border:1px solid rgba(255, 255, 255,0.5);">
+        <div class="footer-bottom">
+            <div class="service">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">청소년보호정책</a>
+                <a href="#">게임IP사용가이드</a>
+                <a href="#">게임시간선택제</a>
+                <a href="#">전체서비스</a><br>
+                <a href="#">회사소개</a>
+                <a href="#">채용안내</a>
+                <a href="#">윤리경영</a>
+                <a href="#">LEVEL UP(넥슨폰트)</a>
+                <a href="#">광고문의</a>
+                <a href="#">넥슨 PC방</a>
+            </div>
+            <p class="copy">㈜넥슨코리아 대표이사 이정헌 경기도 성남시 분당구 판교로 256번길 7 전화 : 1588-7701 팩스 : 0502-258-8322<br>
+                E-mail : contact-us@nexon.co.kr 사업자등록번호 : 220-87-17483호 통신판매업 신고번호 : 제2013-경기성남-1659호 <a href="#">사업자정보확인</a><br>
+                © NEXON Korea Corporation All Rights Reserved.</p>
+            <div class="footerLogo"><img src="img/set_footer.png" alt="sexonLogo"></div>
+            <div class="lang">
+                <div class="langKR"><p>Korean</p><div class="langImg"><img src="img/set_footer.png" alt="한국어"></div></div>
+                <div class="langEN"><p>English</p><div class="langImg"><img src="img/set_footer.png" alt="영어"></div></div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
